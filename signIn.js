@@ -117,8 +117,6 @@ signInForm.addEventListener("submit", (e) => {
     user.lastLoggedIn = currentDate;
     alert(`User signed in. Welcome back ${user.firstName}!`);
     console.log(user);
-    topicsContainer.classList.remove("hidden");
-    userAccessContainer.classList.remove("userAccessContainer");
-    userAccessContainer.classList.add("hidden");
+    displayTopics(user.logInStatus);
   }
 });

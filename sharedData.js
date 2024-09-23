@@ -6,7 +6,7 @@ export const sharedObject = {
     lastName: "",
     birthday: "",
     password: "",
-    logInStatus: true,
+    logInStatus: false,
     createdOn: "",
     lastLoggedIn: "",
     browsedTopics: [],
